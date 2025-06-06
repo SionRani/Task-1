@@ -1,20 +1,20 @@
 # Task-1-Customer-Personality-Analysis
 In this task, I cleaned a raw dataset using Python (Pandas). I handled missing values, removed duplicates, standardized text formats, corrected date formats, renamed columns, and fixed data types. This helped transform messy data into a clean and structured form, ready for analysis or modeling. 
-🧹 Data Cleaning & Preprocessing – Customer Personality Dataset
+Data Cleaning & Preprocessing – Customer Personality Dataset
 
-📌 Objective
+ Objective
 Clean a raw dataset by handling:
 - Missing values
 - Duplicate records
 - Inconsistent text/date formats
 - Column naming and data types
----
+
 Tools Used
 - Python (Pandas)
 - Jupyter Notebook
 - CSV dataset (Customer.csv)
----
-🔧 Cleaning & Preprocessing Steps
+
+ Cleaning & Preprocessing Steps
 
 1. Missing Value Treatment
 - Filled `Income` with its mean.
@@ -35,7 +35,7 @@ Tools Used
 6. Data Types
 - Converted `Age` to integer.
 - Converted date column to datetime format.
----
+
 📁 data-cleaning-and-preprocessing/
 │
 ├── Customer.csv                        # Raw dataset
@@ -54,15 +54,15 @@ Included in the `screenshots/` folder:
 - Before Cleaning
 - Missing Value Check
 - After Cleaning
----
+
 📂 Files in This Repo
 - `marketing_campaign.csv` – Raw dataset
 - `marketing_campaign_cleaned.csv` – Final cleaned dataset
 - `data_cleaning_preprocessing.ipynb` – Jupyter Notebook
 - `README.md` – Task documentation
 - `screenshots/` – Visual proof of cleaning
----
-🎓 What I Learned
+
+What I Learned
 
 ✅ How to:
 - Identify & fix missing values with `fillna()`
@@ -76,6 +76,6 @@ Included in the `screenshots/` folder:
 - Clean data is essential before performing analysis or modeling
 - Helps avoid biased insights and errors
 
----
+
  Conclusion
 This project helped me build confidence in real-world data preparation using Python. I now understand how important clean, consistent data is in any data science or machine learning workflow.
